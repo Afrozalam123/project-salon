@@ -1,9 +1,10 @@
 import React from 'react'
-
+ import Photo from "../assests/Photo.jpg";
+import "../Global.css/Home.css"
 function Home() {
   return (
-    <div>
-      <h1>Welcome to my home page</h1>
+    <div className='image-bg'>
+    <img src={Photo} alt='' className='back-img'/>
     </div>
   )
 }
