@@ -1,14 +1,124 @@
-.image-bg{
-  position: relative;
-  display: flex;
+
+.back-img{
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ width: 100vw;
+ box-sizing: border-box;
+ background-size: cover;
+ flex-direction: column;
+ text-align: center;
+  overflow: hidden;
   
+}
+#heading1{
+ position: relative;
+ top: -26rem;
+ color:white;
+ left: 40px;
+ 
 
 }
-.back-img{
- height: 50vh;
- width: 100%;
- background-size: cover;
- background-position: center;
- background-repeat: no-repeat;
+#para{
+  position: relative;
+  display: flex;
+ top: -25rem;
+  color:white;
+  left: 40px;
+  font-family: cursive;
+}
+#btn2{
+  position: relative;
+  display: flex; 
+  top: -23rem;
+  left: 50px;
+  cursor: pointer;
+   color: brown;
+   background-color: orange;
+   transition: 0s ease-in-out 0s;
+}
+#btn2:hover{
+  color: blue;
+  background-color: crimson;
+}
+.banner-img{
+  position: relative;
+  display: flex;
+  top: -41rem;
+  left: 40rem;
+  height: 30rem;
+  width: 40rem;
+  overflow: hidden;
+}
+
+
+.services-img{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 50px 30px;
+  background-color: #f8f8f8;
+
+}
+.services-img img{
+  position: relative;
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  top: -36rem;
+  object-fit: cover;
+}
+.section-heading{
+  position: relative;
+  display: flex;
+  top: -36rem;
+  left: 10rem;
+  color: brown;
+ transition: 0.3s ease-in-out 0s;
+  font-size: 30px;
+  letter-spacing: 2px;
+  cursor: pointer;
   
+}
+.section-heading:hover{
+  color: orange;
+}
+.home-cards {
+  position: relative;
+  top: -40rem;
+  background-color: #fff;
+  padding: 60px,20px;
+  text-align: center;
+  transition: 0.3s ease-in-out 0s;
+  cursor: pointer;
+
+}
+.home-cards:hover h2{
+
+  color: blue;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+.card {
+  position: relative;
+  background-color: whitesmoke;
+  padding: 30px;
+  left: 10rem;
+ 
+  cursor: pointer;
+  width: 400px;
+ transition: color 0.3s ease-in-out 0s;
+ 
+
+}
+.card:hover h3{
+  color: navy;
+  border-bottom: 2px solid brown;
 }
