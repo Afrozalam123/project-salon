@@ -54,11 +54,13 @@
 
 
 .services-img{
+  position: relative;
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 50px;
   padding: 50px 30px;
-  background-color: #f8f8f8;
+  left:5rem;
+
 
 }
 .services-img img{
@@ -99,26 +101,68 @@
   color: blue;
 }
 
-.card-container {
+/* .card-container {
   display: flex;
   justify-content: center;
   gap: 50px;
   flex-wrap: wrap;
   cursor: pointer;
-}
-.card {
+} */
+
+.card-section{
   position: relative;
+  top: -37rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px 20px;
   background-color: whitesmoke;
-  padding: 30px;
-  left: 10rem;
- 
+}
+.card{
+  position: relative;
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.3s ease-in-out;
   cursor: pointer;
-  width: 400px;
- transition: color 0.3s ease-in-out 0s;
- 
+}
+.card:hover{
+  transform: translate(-5px);
+  box-shadow: 0,6px,16px rgba(0,0,0,0.15);
 
 }
-.card:hover h3{
+.card p{
+  position: relative;
+  opacity: 0.5;
+  font-size: 15px;
+}
+.red-clr{
+  color: red;
+}
+.brown-clr{
+  color: brown;
+}
+.green-clr{
+  color: green;
+}
+/* card1 */
+.color1{
+  color:goldenrod;
+}
+.color2{
   color: navy;
-  border-bottom: 2px solid brown;
+}
+#first-btn{
+  background-color: aqua;
+  border: none;
+  position: relative;
+  left: 5rem;
+}
+.modern-logo{
+  position: relative;
+  height: 6rem;
+   top: -35rem;
+   left: 2rem;
 }
