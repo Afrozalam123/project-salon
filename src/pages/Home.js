@@ -1,5 +1,5 @@
 import React, { use } from 'react'
- import Photo from "../assests/Photo.jpg";
+ import myImage from "../assests/Photo.jpg";
 import "../Global.css/Home.css"
 import image from "../assests/image3.jpg"
 import image4 from "../assests/image4.jpg"
@@ -14,7 +14,7 @@ function Home() {
 
   return (
     <div className='image-bg'>
-    <img src={Photo} alt='' className='back-img'/>
+    <img src={myImage} alt='' className='back-img'/>
     <div>
     <img src={logoImg} alt="salon logo" className='modern-logo'/>
     </div>

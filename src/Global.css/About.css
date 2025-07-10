@@ -1,0 +1,40 @@
+.saloon-img{
+  position: relative;
+   height: 90vh;
+   display: flex;
+ flex-direction: column;
+ text-align: center;
+ width: 100vw;
+ 
+ box-sizing: border-box;
+ background-size: cover;
+ flex-direction: column;
+ text-align: center;
+  overflow: hidden;
+  
+}
+.head-section h2{
+  position:  relative;
+  display: flex;
+  top: -18rem;
+  left: 30rem;
+  color:orangered;
+}
+.head-section p{
+  position: relative;
+  display: flex;
+  top: -15rem;
+  left: 30rem;
+  color:blue;
+  font-family: cursive;
+  font-size: 20px;
+}
+#btns{
+  position: relative;
+  display: flex;
+  top: -15rem;
+  left: 38rem;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
