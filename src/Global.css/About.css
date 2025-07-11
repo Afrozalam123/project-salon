@@ -1,39 +1,39 @@
 .saloon-img{
-  position: relative;
-   height: 90vh;
-   display: flex;
- flex-direction: column;
- text-align: center;
- width: 100vw;
  
- box-sizing: border-box;
- background-size: cover;
- flex-direction: column;
+  height: auto;
+ display: flex;
+ width: 1300px;
  text-align: center;
-  overflow: hidden;
+ object-fit: cover;
   
 }
 .head-section h2{
   position:  relative;
   display: flex;
-  top: -18rem;
-  left: 30rem;
+  top: -35rem;
+  left: 27rem;
   color:orangered;
 }
 .head-section p{
   position: relative;
   display: flex;
-  top: -15rem;
-  left: 30rem;
+  top: -29rem;
+  left: 24rem;
   color:blue;
   font-family: cursive;
   font-size: 20px;
 }
+@media (min-width:600px)and (max-width:1200px) {
+  .head-section h2,p{
+    color: blueviolet;
+    font-size: 5rem;
+  }
+}
 #btns{
   position: relative;
   display: flex;
-  top: -15rem;
-  left: 38rem;
+  top: -27rem;
+  left: 34rem;
   background-color: black;
   color: white;
   cursor: pointer;

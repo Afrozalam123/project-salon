@@ -1,15 +1,11 @@
 
 .back-img{
- height: 100vh;
+ height: auto;
  display: flex;
- flex-direction: column;
+ width: 1300px;
  text-align: center;
- width: 100vw;
- box-sizing: border-box;
- background-size: cover;
- flex-direction: column;
- text-align: center;
-  overflow: hidden;
+ object-fit: cover;
+ 
   
 }
 #heading1{
@@ -45,21 +41,24 @@
 .banner-img{
   position: relative;
   display: flex;
-  top: -41rem;
-  left: 40rem;
-  height: 30rem;
+  top: -47rem;
+  left: 39rem;
+  height: 27rem;
   width: 40rem;
   overflow: hidden;
 }
-
+@media (max-width:1200px) {
+  .service-img img{
+    left: 20rem;
+  }
+}
 
 .services-img{
   position: relative;
   display: flex;
-  justify-content: center;
-  gap: 50px;
-  padding: 50px 30px;
-  left:5rem;
+  gap: 90px;
+  padding: 60px 30px;
+
 
 
 }
@@ -68,18 +67,26 @@
   width: 300px;
   height: auto;
   border-radius: 10px;
-  top: -36rem;
+  top: -43rem;
+  
   object-fit: cover;
+  right: -4rem;
 }
+@media (max-width:1200px) {
+  .service-img img{
+    left: 20rem;
+  }
+}
+
 .section-heading{
   position: relative;
   display: flex;
-  top: -36rem;
+  top: -42rem;
   left: 10rem;
   color: brown;
  transition: 0.3s ease-in-out 0s;
   font-size: 30px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   cursor: pointer;
   
 }
@@ -96,6 +103,7 @@
   cursor: pointer;
 
 }
+
 .home-cards:hover h2{
 
   color: blue;
@@ -127,6 +135,11 @@
   border-radius: 12px;
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
+}
+@media (min-width: 300px) and (max-width: 600px) {
+  .card {
+    background-color: blue;
+  }
 }
 .card:hover{
   transform: translate(-5px);

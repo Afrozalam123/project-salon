@@ -20,7 +20,7 @@ function Home() {
     </div>
     <div>
      <h1 id='heading1'>Welcome to Modern & stylish saloon</h1>
-     <p id='para'    >Get your best look for Modern & Stylish saloon <br/>and enjoy personalized beauty care by experts <br/> and glow up with lastest trend and Modern in Hair,skin and grooming </p>
+     <p id='para'>Get your best look for Modern & Stylish saloon <br/>and enjoy personalized beauty care by experts <br/> and glow up with lastest trend and Modern in Hair,skin and grooming </p>
      <button  id='btn2'>Book Now</button>
      <div>
       <img src={image} alt='' className='banner-img'/>
