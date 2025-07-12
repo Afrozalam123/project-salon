@@ -23,7 +23,7 @@
   font-family: cursive;
   font-size: 20px;
 }
-@media (min-width:600px)and (max-width:1200px) {
+@media (min-width:1000px)and (max-width:1200px) {
   .head-section h2,p{
     color: blueviolet;
     font-size: 5rem;
@@ -37,4 +37,59 @@
   background-color: black;
   color: white;
   cursor: pointer;
+}
+.Mission-section img{
+  position: relative;
+  display: flex;
+ left: 50rem;
+ top: -10rem;
+ height: 20rem;
+ width: 30rem;
+}
+.mision-heading{
+  position: relative;
+  display: flex;
+  top: -11rem;
+  color: navy;
+  font-weight: 600;
+  font-size: 2rem;
+  left: 20rem;
+  text-align: center;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.3s;
+}
+.mision-heading:hover{
+  color: blue;
+  border-bottom: 2px solid blue
+}
+.mission-medium h2{
+  position: relative;
+  /* display: flex; */
+  display: inline-block;
+  text-align: center;
+   color: rgb(130, 139, 0);
+   letter-spacing: 5px;
+   top: -29rem;
+   left: 5rem;
+   transition: 05s ease-in-out 1s;
+   cursor: pointer;
+   border-bottom: 3px solid transparent;
+}
+.mission-medium:hover h2 {
+  color: gold;
+  border-bottom: 3px solid pink;
+}
+.mission-medium p{
+position: relative;
+display: flex;
+top: -27rem;
+text-align: center;
+cursor: pointer;
+text-transform: capitalize;
+left: 3rem;
+letter-spacing: 1px;
+word-spacing: 2px;
+line-height: 1.6;
 }

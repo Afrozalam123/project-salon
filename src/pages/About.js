@@ -1,7 +1,7 @@
 import React from 'react'
 import "../Global.css/About.css"
 import Afroz from "../assests/Afroz.jpg"
-import mision from "../assests/Mision.jpg"
+import saloon from "../assests/saloon.jpg"
 function About() {
   return (
     <div>
@@ -19,8 +19,19 @@ function About() {
         <button id='btns'>Know More</button>
        </div>
      </section>
+      <div className='mision-heading'>Our Mission</div>
      <section className='Mission-section'>
-     <img src={mision} alt=""/>
+     <img src={saloon} alt=""/>
+     <section className='mission-medium'>
+      <div>
+        <h2>Our Mission</h2>
+        <p> Our mission is to offer a clean, hygienic, and modern salon experience <br/>.
+We focus on comfort, style, and personal care for every customer <br/>.
+Our trained staff uses quality products for the best results.<br/>
+And my aim to make people every visit relaxing and confidence-boosting
+</p>
+      </div>
+     </section>
      </section>
     </div>
   )
