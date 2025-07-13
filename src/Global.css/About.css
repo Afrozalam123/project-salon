@@ -1,51 +1,90 @@
 .saloon-img{
- 
   height: auto;
- display: flex;
- width: 1300px;
+  display: flex;
+  margin: auto;
+ max-width: 1300px;
+ flex-wrap: wrap;
  text-align: center;
  object-fit: cover;
   
 }
-.head-section h2{
-  position:  relative;
-  display: flex;
-  top: -35rem;
-  left: 27rem;
-  color:orangered;
-}
-.head-section p{
+
+
+.section-text h2{
   position: relative;
   display: flex;
-  top: -29rem;
-  left: 24rem;
-  color:blue;
-  font-family: cursive;
-  font-size: 20px;
+ font-size: 3rem;
+  color: orangered;
+  flex-wrap: wrap;
+ top: -30rem;
+ left: 15rem;
+ text-align: center;
 }
-@media (min-width:1000px)and (max-width:1200px) {
-  .head-section h2,p{
-    color: blueviolet;
-    font-size: 5rem;
+/* @media (max-width:600px) {
+  .section-text h2{
+    font-size: 1.8rem;
+    top: -34rem;
+    left: 22rem;
   }
+} */
+.section-text p{
+  position: relative;
+ 
+  color: blue;
+  font-family: cursive;
+  top: -29rem;
+   left: -9rem;
+  text-align: center;
 }
+
+
+ @media (max-width:1025px){
+  .section-text p{
+    position: relative;
+  
+    text-align: center;
+    color: goldenrod;
+    left: 12rem;
+   
+  } 
+}
+/* @media (min-width:900px) and (max-width:1200px){
+  .section-text p{
+   font-size: 3rem;
+   left: 15rem;
+    
+  }
+} */
+
 #btns{
   position: relative;
   display: flex;
-  top: -27rem;
-  left: 34rem;
+  top: -30rem;
+  left: 27rem;
   background-color: black;
   color: white;
   cursor: pointer;
 }
+.Mission-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  text-align: center;
+}
 .Mission-section img{
   position: relative;
   display: flex;
- left: 50rem;
- top: -10rem;
- height: 20rem;
- width: 30rem;
+
 }
+/* @media (max-width: 600px) {
+  .mission-img {
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+} */
+
+
 .mision-heading{
   position: relative;
   display: flex;
@@ -58,15 +97,16 @@
   border-bottom: 2px solid transparent;
   cursor: pointer;
   display: inline-block;
+  margin-bottom: 20px;
   transition: 0.3s;
 }
 .mision-heading:hover{
-  color: blue;
-  border-bottom: 2px solid blue
+ color: blue;
+  border-bottom: 2px solid blue;
 }
 .mission-medium h2{
   position: relative;
-  /* display: flex; */
+  
   display: inline-block;
   text-align: center;
    color: rgb(130, 139, 0);
@@ -92,4 +132,19 @@ left: 3rem;
 letter-spacing: 1px;
 word-spacing: 2px;
 line-height: 1.6;
+}
+
+.section-para img{
+  position: relative;
+  display: flex;
+  height: 20rem;
+  object-fit: cover;
+  object-position: top;
+  left: 3rem;
+  top: -10rem;
+}
+@media only screen and  (max-width:455px){
+  .section-para img{
+    height: 25rem;
+  }
 }
