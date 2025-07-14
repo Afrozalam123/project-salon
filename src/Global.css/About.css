@@ -1,52 +1,47 @@
-.saloon-img{
+.saloon-img {
   height: auto;
   display: flex;
   margin: auto;
- max-width: 1300px;
- flex-wrap: wrap;
- text-align: center;
- object-fit: cover;
-  
+  max-width: 1300px;
+  flex-wrap: wrap;
+  text-align: center;
+  object-fit: cover;
 }
 
-
-.section-text h2{
+.section-text h2 {
   position: relative;
   display: flex;
- font-size: 3rem;
-  color: orangered;
+  font-size: 3rem;
   flex-wrap: wrap;
- top: -30rem;
- left: 15rem;
- text-align: center;
+  top: -30rem;
+  left: 15rem;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  transition: 0.3s;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-/* @media (max-width:600px) {
-  .section-text h2{
-    font-size: 1.8rem;
-    top: -34rem;
-    left: 22rem;
-  }
-} */
-.section-text p{
+
+.section-text p {
   position: relative;
- 
+
   color: blue;
   font-family: cursive;
   top: -29rem;
-   left: -9rem;
+  left: -9rem;
   text-align: center;
 }
 
-
- @media (max-width:1025px){
-  .section-text p{
+@media (max-width: 1025px) {
+  .section-text p {
     position: relative;
-  
+
     text-align: center;
     color: goldenrod;
     left: 12rem;
-   
-  } 
+  }
 }
 /* @media (min-width:900px) and (max-width:1200px){
   .section-text p{
@@ -56,95 +51,133 @@
   }
 } */
 
-#btns{
+#btns {
   position: relative;
   display: flex;
-  top: -30rem;
-  left: 27rem;
+  top: -28rem;
+  left: 38rem;
   background-color: black;
   color: white;
   cursor: pointer;
 }
-.Mission-section{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 40px 20px;
-  text-align: center;
-}
-.Mission-section img{
-  position: relative;
-  display: flex;
-
-}
-/* @media (max-width: 600px) {
-  .mission-img {
-    max-width: 100%;
-    margin-bottom: 15px;
+@media (min-width: 300) and(max-width:1200px) {
+  #btns {
+    top: -28rem;
+    height: 5rem;
+    color: red;
   }
-} */
+}
 
-
-.mision-heading{
+.Mission-section img {
   position: relative;
   display: flex;
-  top: -11rem;
+  top: -14rem;
+  width: 25rem;
+  left: 17rem;
+  align-items: center;
+  margin: 1px;
+  padding: 3px;
+}
+
+.mision-heading {
+  position: relative;
+  display: flex;
+  top: -14rem;
   color: navy;
   font-weight: 600;
   font-size: 2rem;
-  left: 20rem;
+  left: 26rem;
   text-align: center;
   border-bottom: 2px solid transparent;
   cursor: pointer;
   display: inline-block;
-  margin-bottom: 20px;
+  margin: 1px;
+  padding: 5px;
   transition: 0.3s;
 }
-.mision-heading:hover{
- color: blue;
+.mision-heading:hover {
+  color: blue;
   border-bottom: 2px solid blue;
 }
-.mission-medium h2{
+.mission-medium h2 {
   position: relative;
-  
+
   display: inline-block;
   text-align: center;
-   color: rgb(130, 139, 0);
-   letter-spacing: 5px;
-   top: -29rem;
-   left: 5rem;
-   transition: 05s ease-in-out 1s;
-   cursor: pointer;
-   border-bottom: 3px solid transparent;
+  color: rgb(130, 139, 0);
+  letter-spacing: 5px;
+  top: -13rem;
+  left: 23rem;
+  transition: 05s;
+  cursor: pointer;
 }
 .mission-medium:hover h2 {
   color: gold;
-  border-bottom: 3px solid pink;
+  border-bottom: 2px solid pink;
 }
-.mission-medium p{
-position: relative;
-display: flex;
-top: -27rem;
-text-align: center;
-cursor: pointer;
-text-transform: capitalize;
-left: 3rem;
-letter-spacing: 1px;
-word-spacing: 2px;
-line-height: 1.6;
-}
-
-.section-para img{
+.mission-medium p {
   position: relative;
   display: flex;
-  height: 20rem;
+  top: -12rem;
+  text-align: center;
+  font-size: 1rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  left: 11rem;
+  letter-spacing: 1px;
+  word-spacing: -2px;
+  line-height: 1.6;
+}
+@media (max-width: 1025) {
+  .mission-medium p {
+    font-size: 2rem;
+    padding: 2px 3px;
+  }
+}
+
+.section-para img {
+  position: relative;
+  display: flex;
+  height: 30rem;
   object-fit: cover;
   object-position: top;
-  left: 3rem;
+  left: 20rem;
   top: -10rem;
+  width: 25rem;
 }
-@media only screen and  (max-width:455px){
-  .section-para img{
-    height: 25rem;
-  }
+.section-para h2 {
+  position: relative;
+  display: inline-block;
+  left: 27rem;
+  text-align: center;
+  top: -10rem;
+  transition: 0.3s;
+  color: chocolate;
+  cursor: pointer;
+}
+.section-para h2:hover {
+  border-bottom: 2px solid goldenrod;
+  color: blueviolet;
+}
+.section-para p {
+  position: relative;
+  display: flex;
+  left: 14rem;
+  top: -9rem;
+  text-align: center;
+  word-spacing: 15px;
+}
+.story-section h2 {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 2px;
+  transition: 0.3px ease-in-out 0s;
+
+  color: crimson;
+}
+.story-section h2:hover {
+  border-bottom: 2px solid blue;
+  color: chartreuse;
 }

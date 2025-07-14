@@ -3,6 +3,7 @@ import "../Global.css/About.css"
 import Afroz from "../assests/Afroz.jpg"
 import saloon from "../assests/saloon.jpg"
 import interior from "../assests/interior.jpg"
+import waiting  from "../assests/waiting-saloon.jpg"
 function About() {
   return (
     <div>
@@ -20,13 +21,14 @@ function About() {
         </p>
         <button id='btns'>Know More</button>
        </div>
-       
+
      </section>
       <div className='mision-heading'>Our Mission</div>
      <section className='Mission-section'>
      <img src={saloon} alt=""/>
      <section className='mission-medium'>
       <div>
+       
         <h2>Our Mission</h2>
         <p> Our mission is to offer a clean, hygienic, and modern salon experience <br/>.
 We focus on comfort, style, and personal care for every customer <br/>.
@@ -37,8 +39,34 @@ And my aim to make people every visit relaxing and confidence-boosting</p>
      </section>
      <section className='section-para'>
       <img src={interior} alt=''/>
+      <div>
+        <h2>Our Vision</h2>
+        <p>We aim to make salon services simple and accessible for everyone.<br/>
+No more standing in long queues or waiting for your turn.<br/>
+Book appointments quickly using your phone — anytime, anywhere.<br/>
+Our goal is to save your time and give you a smooth experience.<br/>
+Grooming made easy, fast, and available to all.<br/>
+</p>
+
+  <section className='story-section'>
+    <div>
+       <img src={waiting} alt=""/>
+      <h2>Our Story</h2>
+      <p>
+         We noticed how people often walked away from traditional salons after seeing long queues.<br/>
+    Barbers would ask them to come later due to crowd and limited capacity.<br/>
+    This led to frustration and loss of valuable customers. <br/>
+    To solve this, we started a modern, digital-first salon system. <br/>
+    Now, customers can easily book appointments and enjoy hassle-free grooming without waiting.<br/>
+    </p> 
+     
+
+    </div>
+  </section>
+     </div>
      </section>
     </div>
+     
   )
 }
 

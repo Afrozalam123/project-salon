@@ -1,44 +1,39 @@
-
-.back-img{
- height: auto;
- display: flex;
- width: 1300px;
- text-align: center;
- object-fit: cover;
- 
-  
+.back-img {
+  height: auto;
+  display: flex;
+  width: 1300px;
+  text-align: center;
+  object-fit: cover;
 }
-#heading1{
- position: relative;
- top: -26rem;
- color:white;
- left: 40px;
- 
-
+#heading1 {
+  position: relative;
+  top: -26rem;
+  color: white;
+  left: 40px;
 }
-#para{
+#para {
   position: relative;
   display: flex;
- top: -25rem;
-  color:white;
+  top: -25rem;
+  color: white;
   left: 40px;
   font-family: cursive;
 }
-#btn2{
+#btn2 {
   position: relative;
-  display: flex; 
+  display: flex;
   top: -23rem;
   left: 50px;
   cursor: pointer;
-   color: brown;
-   background-color: orange;
-   transition: 0s ease-in-out 0s;
+  color: brown;
+  background-color: orange;
+  transition: 0s ease-in-out 0s;
 }
-#btn2:hover{
+#btn2:hover {
   color: blue;
   background-color: crimson;
 }
-.banner-img{
+.banner-img {
   position: relative;
   display: flex;
   top: -47rem;
@@ -47,77 +42,67 @@
   width: 40rem;
   overflow: hidden;
 }
-@media (max-width:1200px) {
-  .service-img img{
+@media (max-width: 1200px) {
+  .service-img img {
     left: 20rem;
   }
 }
 
-.services-img{
+.services-img {
   position: relative;
   display: flex;
   gap: 90px;
   padding: 60px 30px;
-
-
-
 }
-.services-img img{
+.services-img img {
   position: relative;
   width: 300px;
   height: auto;
   border-radius: 10px;
   top: -43rem;
-  
+
   object-fit: cover;
   right: -4rem;
 }
-@media (max-width:600px) {
-  .service-img img{
-   width: 100%;
+@media (max-width: 600px) {
+  .service-img img {
+    width: 100%;
     max-width: 100%;
     top: 0;
     right: 0;
     border-radius: 8px;
-
   }
-  }
+}
 
-
-.section-heading{
+.section-heading {
   position: relative;
   display: flex;
   top: -42rem;
   left: 10rem;
   color: brown;
- transition: 0.3s ease-in-out 0s;
+  transition: 0.3s ease-in-out 0s;
   font-size: 30px;
   letter-spacing: 1px;
   cursor: pointer;
-  
 }
-.section-heading:hover{
+.section-heading:hover {
   color: orange;
 }
 .home-cards {
   position: relative;
   top: -40rem;
   background-color: #fff;
-  padding: 60px,20px;
+  padding: 60px, 20px;
   text-align: center;
   transition: 0.3s ease-in-out 0s;
   cursor: pointer;
-
 }
 
-.home-cards:hover h2{
-
+.home-cards:hover h2 {
   color: blue;
 }
 
-
-
-.card-section{
+.card-section {
   position: relative;
   top: -37rem;
   display: flex;
@@ -133,7 +118,7 @@
     align-items: center;
   }
 }
-.card{
+.card {
   position: relative;
   width: 300px;
   background-color: white;
@@ -146,48 +131,47 @@
   justify-content: space-between;
 }
 @media (max-width: 600px) {
-   .card{
+  .card {
     width: 100%;
     max-width: 100%;
-   }     
   }
-
-.card:hover{
-  transform: translate(-5px);
-  box-shadow: 0,6px,16px rgba(0,0,0,0.15);
-
 }
-.card p{
+
+.card:hover {
+  transform: translate(-5px);
+  box-shadow: 0, 6px, 16px rgba(0, 0, 0, 0.15);
+}
+.card p {
   position: relative;
   opacity: 0.5;
   font-size: 15px;
 }
-.red-clr{
+.red-clr {
   color: red;
 }
-.brown-clr{
+.brown-clr {
   color: brown;
 }
-.green-clr{
+.green-clr {
   color: green;
 }
 /* card1 */
-.color1{
-  color:goldenrod;
+.color1 {
+  color: goldenrod;
 }
-.color2{
+.color2 {
   color: navy;
 }
-#first-btn{
+#first-btn {
   background-color: aqua;
   border: none;
   position: relative;
   left: 5rem;
   cursor: pointer;
 }
-.modern-logo{
+.modern-logo {
   position: relative;
   height: 6rem;
-   top: -35rem;
-   left: 2rem;
+  top: -35rem;
+  left: 2rem;
 }
