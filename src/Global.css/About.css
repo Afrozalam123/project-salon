@@ -220,8 +220,8 @@
   position: relative;
   display: inline-block;
   justify-content: center;
-  color: aquamarine;
-  top: -5rem;
+  color:orange;
+  top: -8rem;
   left: 28rem;
   border: 2px solid transparent;
 }
@@ -238,7 +238,7 @@
   height: 17rem;
   border-left: 5px solid black;
   border-right: 5px solid black;
-  top: -4rem;
+  top: -7rem;
  object-fit: cover; 
 }
 .Team-member h3{
@@ -250,14 +250,14 @@
   cursor: pointer;
    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
   left: 30rem;
-  top: -3rem;
+  top: -7rem;
   text-align: center;
 }
 .Team-member p{
   position: relative;
   display: flex;
   left: 31rem;
-  top: -7rem;
+  top: -11rem;
    border-bottom: 2px solid  violet;
   width: 12rem;
   height: 5rem;
@@ -278,7 +278,7 @@
   gap: 2rem;
   width: 25rem;
   height: 17rem;
-  top: -6rem;
+  top: -9rem;
  object-fit: cover; 
 }
 
@@ -289,7 +289,7 @@
   text-align: center;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
  position: relative;
- top: -6rem;
+ top: -8rem;
  display: inline-block;
  right: -23rem;
 
@@ -299,7 +299,7 @@
  position: relative;
  display: flex;
  left: 26rem;
- top: -5rem;
+ top: -7rem;
  font-weight: bolder;
  font-size: 2rem;
     border-bottom: 2px solid  violet;
