@@ -4,6 +4,8 @@ import Afroz from "../assests/Afroz.jpg"
 import saloon from "../assests/saloon.jpg"
 import interior from "../assests/interior.jpg"
 import waiting  from "../assests/waiting-saloon.jpg"
+import style  from  "../assests/style.jpg"
+import stylish2 from "../assests/stylish2.jpg"
 function About() {
   return (
     <div>
@@ -59,8 +61,24 @@ Grooming made easy, fast, and available to all.<br/>
     To solve this, we started a modern, digital-first salon system. <br/>
     Now, customers can easily book appointments and enjoy hassle-free grooming without waiting.<br/>
     </p> 
-     
+    <section className='team-section'>
+      <h2>Meet Our Team</h2>
+      <div className='Team-member'>
+        <img src={style} alt='style' className='style-img1'/>
+        <h3>Aayan khan</h3>
+        <p>Senior Hair Stylist</p>
+      </div>
 
+      <section className='section-team1'>
+       <img src={stylish2} alt='' className='style-img2'/>
+       <div className='heaid'>
+       <h4>Zoya Khan</h4>
+       <p>Senior Facial <br/>Treatment</p>
+       </div>
+     
+      </section>
+     
+    </section> 
     </div>
   </section>
      </div>
