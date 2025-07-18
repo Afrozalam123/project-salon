@@ -256,11 +256,13 @@
 .Team-member p{
   position: relative;
   display: flex;
-  left: 31rem;
-  top: -11rem;
+  left: -5rem;
+  top: -12rem;
    border-bottom: 2px solid  violet;
   width: 12rem;
   height: 5rem;
+  margin: 0 auto;
+  margin-top: 2rem;
   font-weight: bolder;
   text-align: center;
   font-size:2rem;
@@ -298,13 +300,15 @@
 .heaid p{
  position: relative;
  display: flex;
- left: 26rem;
+ left: -7rem;
  top: -7rem;
  font-weight: bolder;
  font-size: 2rem;
     border-bottom: 2px solid  violet;
   width: 13rem;
   height: 5rem;
+  margin: 0 auto;
+  margin-top: 2rem;
   
 }
 
