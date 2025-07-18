@@ -1,0 +1,66 @@
+body {
+      margin: 0;
+      padding: 0;
+    }
+
+.login-page{
+  /* background-color:black; */
+   height: 170rem;
+   width: 76rem;
+ 
+}
+input[type='text1']{
+  padding: 10px;
+  margin: 1.5rem;
+    font-size: 16px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 250px;
+    outline: none;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  position: relative;
+  display: flex;
+  left: 26rem;
+  top: 9rem;
+  align-items: center;
+  gap: 2rem;
+}
+@media (max-width:600px){
+ .login-page{
+    background-color: darkgrey;
+ }
+ 
+ }
+
+input[type='text1']:focus{
+  border-color: darkcyan;
+    box-shadow: 5 5 25px rgba(0, 139, 139, 0.5);
+}
+.login-section{
+  background-color: whitesmoke;
+  height: 30rem;
+  width: 24rem;
+  position: relative;
+  display: flex;
+  left: 24rem;
+  cursor: pointer;
+  top: 33rem;
+  border-radius: 2rem;
+   box-shadow: 0px 0px 20px blue;
+}
+.password-icon1{
+  position: relative;
+  display: flex;
+  left: 30rem;
+  top: 56px;
+  color: blue;
+}
+.user-icon2{
+   position: relative;
+  display: flex;
+  left: 30rem;
+  top: -28px;
+  color: blue;
+}

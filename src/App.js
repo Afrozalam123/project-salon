@@ -7,6 +7,8 @@ import Service from "./pages/Service"
 import Login from  "./pages/Login"
 import Customer from "./pages/Customer"
 import Appointment from "./pages/Appointment"
+import login from  "./pages/Login"
+
 function App() {
   return (
    <BrowserRouter>
