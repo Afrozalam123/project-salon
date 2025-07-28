@@ -13,7 +13,7 @@ function Navbar() {
           <button id='btn1'>Search</button>
         </form>
         <li><Link to="/customer" className='nav-list'>Customer</Link></li>
-        <li><Link to="/appointment" className='nav-list'>Appointment</Link></li>
+        {/* <li><Link to="/appointment" className='nav-list'>Appointment</Link></li> */}
         <li><Link to="/login" className='nav-list'>Login</Link></li>
         
       </ul>

@@ -1,0 +1,347 @@
+.service-img{
+  position: relative;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80rem; 
+
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.service-head {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: -34rem;
+  align-items: center;
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+  word-spacing: 0.2rem;
+  color: green;
+  text-shadow: 1px 2px 3px blue,
+                1px 3px 4px red,
+                4px 4px 12px gold;
+  padding: 2rem;
+  cursor: pointer;
+}
+
+.paragraph-servic {
+  position: relative;
+  display: flex;
+  top: -33rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: black;
+  text-shadow: 2px 3px 2px rebeccapurple,
+               3px 4px 5px cyan;
+  padding: 1.5rem 3rem;
+  text-align: center;
+}
+
+
+
+@media (max-width: 1200px) {
+  .service-head {
+    font-size: 3.5rem;
+    color: darkblue;
+  }
+
+  .paragraph-servic {
+    font-size: 2.8rem;
+    
+  
+    
+  }
+}
+
+
+
+@media (max-width: 600px) {
+  .service-head {
+    font-size: 2.5rem;
+    color: brown;
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.1rem;
+    top: -35.2rem;
+  }
+
+  .paragraph-servic {
+    font-size: 2.2rem;
+    color: brown;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    top: -36.2rem;
+  }
+}
+
+/* STYLE FOR BUTTONS */
+#service-btns{
+  position: relative;
+  display: flex;
+  top: -32rem;
+  left: 30rem;
+  background-color: brown;
+  color: wheat;
+  text-shadow: 1px 1px 2px orange;
+  cursor: pointer;
+  align-items: center;
+
+}
+
+/* MEDIA QUERES FOR SERVICE BTNS TABLET/AND DESKTOP */
+@media (max-width: 1200px) {
+  #service-btns {
+    position: relative;
+    top: -33rem;
+   left: 16rem;
+    font-size: 1.8rem;
+    padding: 0.8rem 1.8rem;
+    background-color: darkred;
+  }
+}
+/* media query for mobile for service btns */
+
+@media (max-width: 600px) {
+  #service-btns {
+    position: relative;  
+    top: -38rem;
+    margin: 2rem auto;
+    left: 2rem;
+    display: flex;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    background-color: brown;
+    text-align: center;
+    width: fit-content;
+  }
+}
+
+/* style for stylish image */
+.stylish-image1{
+  position: relative;
+   height: 20rem;
+   width: 100%;
+  
+}
+.service-card-container{
+display: flex;
+  justify-content: center;   
+  gap: 2rem;                
+  flex-wrap: wrap;          
+  margin-top: 2rem;
+}
+.service-card1{
+  position: relative;           
+ width: 300px;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;                
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 2rem;
+  top: -27rem;
+  cursor: pointer;
+  height: 35rem;
+  border: 1px solid black;
+}
+.service-card1:hover {
+  transform: translateY(-5px);
+} 
+
+/* Style for service card2 */
+
+.service-card2{
+ position: relative;           
+ width: 300px;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;                
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 2rem;
+  top: -64rem;
+  left: 25rem;
+  cursor: pointer;
+  height: 35rem;
+  border: 1px solid black;
+
+}
+.service-card2:hover {
+  transform: translateY(-5px);
+}  
+
+/* Style for service card3 */
+.service-card3{
+  position: relative;           
+ width: 300px;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;                
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 2rem;
+  top: -101rem;
+  left: 50rem;
+  cursor: pointer;
+  height: 35rem;
+  border: 1px solid black;
+}
+.service-card3:hover {
+  transform: translateY(-5px);
+}  
+
+/* STYLE FOR SERVICE CARD4 */
+.service-card4{
+  position: relative;           
+ width: 300px;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;                
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 2rem;
+  top: -101rem;
+  left: 8rem;
+  cursor: pointer;
+  height: 35rem;
+  border: 1px solid black; 
+}
+
+.service-card4:hover {
+  transform: translateY(-6px);
+}  
+
+
+/* Style for card5 */
+.service-card5{
+  position: relative;           
+ width: 300px;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;                
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 2rem;
+  top: -138rem;
+  left: 40rem;
+  cursor: pointer;
+  height: 35rem;
+  border: 1px solid black; 
+}
+
+.service-card5:hover {
+  transform: translateY(-6px);
+}  
+
+
+/* style for contact-section */
+.title{
+  position: relative;
+  display: flex;
+  top: -137rem;
+  left: 30rem;
+  font-size: 2.2rem;
+  text-align: center;
+  font-weight: 300;
+  color: white;
+  cursor: pointer;
+  
+  transition: 0.2s ease-in-out 0s;
+  text-shadow: 2px 2px 12px navy,
+               3px 4px 13px navy,
+               4px 4px 1px  navy;
+
+}     
+
+
+
+.contact-paragraph{
+position: relative;
+  display: flex;
+  top: -135rem;
+  left: 20rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+input[type="text3"]
+{
+position: relative;
+  display: flex;         
+  flex-direction: row;   
+  gap: 2rem;             
+  top: -133rem;
+  left: 21rem;
+  text-align: center;
+  border: none;
+  border: 2px solid gray;
+  width: 17rem;
+   outline: none;
+  padding: 7px 2px;
+  cursor: pointer;
+  background-color: whitesmoke;
+  font-size: 1.2rem;
+  font-family: cursive;
+  font-weight: 400;
+}
+input[type='text3']:focus{
+   border-color: darkcyan;
+    box-shadow: 5 5 25px rgba(85, 133, 133, 0.5)
+}
+
+/* e-mail input  */
+input[type="text4"]
+{
+  position: relative;
+  display: flex;         
+  flex-direction: row;   
+  gap: 2rem;             
+  top: -136rem;
+  left: 41rem;
+  text-align: center;
+  border: none;
+  border: 2px solid gray;
+  width: 17rem;
+   outline: none;
+  padding: 7px 2px;
+  cursor: pointer;
+  background-color: whitesmoke;
+  font-size: 1.2rem;
+  font-family: cursive;
+  font-weight: 400;
+
+}
+input[type='text4']:focus{
+   border-color: darkcyan;
+    box-shadow: 5 5 25px rgba(85, 133, 133, 0.5)
+}
+#submits{
+  position: relative;
+  display: flex;
+   top: -132rem;
+  left: 30rem;
+  align-items: center;
+  width: 20rem;
+  padding: 10px 8rem; 
+  background-color: darkcyan;
+  font-size: 1.3rem;
+  border-radius: 2rem;
+  opacity: 1.7rem;
+}
+
+.container{
+  position: relative;
+  display: flex;
+  background-color: darkcyan;
+  height: 60rem;
+  width: 85rem;
+  top: -118rem;
+ 
+}
