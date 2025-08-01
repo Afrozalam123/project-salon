@@ -89,7 +89,49 @@ function Service() {
       </section>
 
      <section className='container'>
-      
+      <div className='box'>
+        <div className=' circle-box'>
+          <div className='person-icon'>
+            <i class="fa-solid fa-person-running"></i>
+            <br/>
+            <div className='persons-text'>
+              <h1>ABOUT CLUB</h1>
+              <p>Running Guide<br/>
+                 Workouts
+              </p>
+            </div>
+          </div>
+
+          <section className='circle-box1'>
+            <div className='call-icon'>
+              <i class="fa-solid fa-phone"></i>
+              <br/>
+              <div className='call-text'>
+                <h1>PHONE(LANDLINE)</h1>
+                 <p>+9122356789<br/>
+                    +9122358759
+                 </p>
+              </div>
+            </div>
+
+            <section className='circle-box2'>
+            <div className='location-icon'>
+              <i class="fa-solid fa-location-dot"></i>
+              <br/>
+              <div className='location-text'>
+                <h1>OUR OFFICE LOCATION</h1>
+                <p>Tower A, 7th Floor, Stellar IT Park, Sector 62,<br/> Noida, Uttar Pradesh - 201309"</p>
+
+
+              </div>
+            </div>
+            </section>
+
+          </section>
+
+         
+        </div>
+      </div>
      </section>
      
 

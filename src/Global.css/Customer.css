@@ -1,0 +1,220 @@
+.smilling-image{
+  position: relative;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60rem; 
+  height: 20rem;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+}
+.smiling-text h1{
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  top: -28rem;
+  transition: 0.1s ease-in-out 0s;
+  left: 25rem;
+  text-align: center;
+  border-bottom: 2px solid transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 3rem;
+   text-shadow: 2px 2px 18px rgba(0, 0, 0, 0.6);
+}
+.smiling-text h1:hover{
+ color: darkcyan;
+ border-bottom: 2px solid greenyellow;
+}
+
+.smiling-text h2{
+  position: relative;
+  display: flex;
+  white-space: nowrap; 
+   text-align: center;
+  color:brown;
+  font-size: 2rem;
+    top: -26rem;
+  left: 25rem;
+  cursor: pointer;
+  text-shadow: 2px 2px 12px white,
+               3px 3px 4px 13px white;
+             
+}
+.smiling-text h2:hover{
+  color: darkgreen;
+}
+/* style for button join */
+#join{
+  position: relative;
+  display: flex;
+  top: -23rem;
+  left: 32rem;
+  color: navy;
+  background-color: gold;
+  cursor: pointer;
+
+}
+#join:hover{
+  transform: translatex(-10px);
+}
+.customer-text {
+  position: relative;
+  display: inline-block;
+  color: navy;
+  font-size: 2.2rem;
+  top: -6rem;
+  transition: 0.2s ease-in-out 0s;
+  cursor: pointer;
+  left: 19rem;
+  border-bottom: 2px solid transparent;
+}
+.customer-text:hover{
+  color: rgb(27, 125, 25);
+  border-bottom: 2px solid blue;
+}
+/* Style n for card7 */
+.card7{
+  position: relative;           
+ width: 300px;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;                
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 2rem;
+  cursor: pointer;
+  height: 33rem;
+  border: 1px solid black; 
+}
+/* Hover for card 7 and translate */
+.card7:hover{
+  transform: translateY(-7px);
+}
+
+
+/*  Style for card Styling image1*/
+.styling-image{
+   position: relative;
+   height: 20rem;
+   width: 100%;
+  
+}
+
+/* style for card8 */
+.card8{
+   position: relative;           
+ width: 300px;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;                
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 2rem;
+  left: 23rem;
+  top: -35rem;
+  cursor: pointer;
+  height: 33rem;
+  border: 1px solid black; 
+}
+/* hover effect and translate also */
+.card8:hover{
+  transform: translate(-9px);
+}
+
+/* style for card9 */
+.card9{
+   position: relative;           
+ width: 300px;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;                
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 2rem;
+  left: 45rem;
+  top: -70rem;
+  cursor: pointer;
+  height: 33rem;
+  border: 1px solid black; 
+}
+
+/* Hover effect and transition also */
+.card9:hover{
+  transform: translate(-11px);
+}
+
+/* style for styling image  */
+
+.styling-image{
+   position: relative;
+   height: 20rem;
+   width: 100%;
+}
+.stars{
+   color: #f9b233;
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+/* style for customer stauts */
+.Customer-status h2{
+  position: relative;
+  display: inline-block;
+  color: blue;
+  top: -68rem;
+  text-align: center;
+  transition: 0.2s ease-in-out 0s;
+  border: 2px solid transparent;
+  cursor: pointer;
+  left: 22rem;
+}
+
+.Customer-status:hover h2{
+color: red;
+border: 2px solid black;
+}
+
+/* style for customer status and rating */
+
+.status-box {
+  position: relative;
+  top: -65rem;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.status-box div {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  min-width: 180px;
+}
+
+.status-box h3 {
+  font-size: 32px;
+  color: #ff6b6b;
+  margin-bottom: 5px;
+}
+
+.status-box p {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}
+/* Now media queries */
+
+@media screen and (max-width: 600px) {
+  .status-box {
+    position: relative;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+  }
+}

@@ -343,5 +343,142 @@ input[type='text4']:focus{
   height: 60rem;
   width: 85rem;
   top: -118rem;
- 
+
+}
+.box{
+  position: relative;
+  display: flex;
+  height: 15rem;
+  width: 60rem;
+  background-color: darkgray;
+  transition: 0.3s ease-in-out 0s;
+  align-items: center;
+  cursor: pointer;
+  top: -4rem;
+  left: 7rem;
+  text-shadow: 2px 2px 3px whitesmoke,
+               4px 4px 5px whitesmoke,
+               5px 6px 5px whitesmoke;
+}
+.box:hover{
+  transform: translateY(-6px);
+}
+
+.circle-box{
+  position: relative;
+  top: -8rem;
+  left: 5rem;
+ width: 100px;
+  height: 100px;
+  background-color:darkcyan;
+  border-radius: 50%; 
+}
+
+.person-icon{
+  position: relative;
+  top: 2rem;
+  left: 2.2rem;
+  font-size: 2rem;
+  text-shadow: none;
+  color: white;
+}
+.persons-text h1{
+  position: relative;
+  display: flex;
+  top: 2.3rem;
+  font-weight: 200;
+  font-size: 1rem;
+  left: -1rem;
+  text-shadow: none;
+  color: black;
+}
+
+.persons-text p{
+  position: relative;
+  display: flex;
+  font-size: 1rem;
+  top: 3rem;
+  left: -2rem;
+}
+
+
+/* second box */
+.circle-box1{
+   position: relative;
+   left: 20rem;
+   top: -7rem;
+ width: 100px;
+  height: 100px;
+  background-color:darkcyan;
+  border-radius: 50%; 
+}
+/* style for call-icon */
+.call-icon{
+  position: relative;
+  display: flex;
+  text-shadow: none;
+  color: white;
+  font-size: 1.4rem;
+  left: 2rem;
+  top: 2rem;
+}
+/* style for call-text */
+.call-text h1{
+  position: relative;
+  display: flex;
+  color: black;
+  font-weight: 200;
+  top: 5rem;
+  left: -3rem;
+}
+
+.call-text p{
+  position: relative;
+  top: 6rem;
+  color: black;
+  left: -3.3rem;
+  font-weight: 100;
+  font-size: 1.1rem;
+  word-spacing: 2rem;
+}
+
+/* style for cirrcle-box2 */
+.circle-box2{
+   position: relative;
+   left: 20rem;
+   top: -4rem;
+ width: 100px;
+  height: 100px;
+  background-color:darkcyan;
+  border-radius: 50%; 
+}
+/* style for location-icon */
+.location-icon{
+   position: relative;
+  display: flex;
+  text-shadow: none;
+  color: white;
+  font-size: 1.5rem;
+  left: 2.3rem;
+  top: 2rem;
+
+}
+/* style for location-text h1 */
+.location-text h1{
+  position: relative;
+  display: flex;
+  color: black;
+  top: 5rem;
+  font-weight: 200;
+  left: -4.2rem;
+  white-space: nowrap;
+}
+.location-text p{
+ position: relative;
+  top: 6rem;
+  color: black;
+  left: -3.3rem;
+  font-weight: 100;
+  font-size: 1.1rem;
+  
 }

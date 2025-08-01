@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 import "../Global.css/Navbar.css"
 function Navbar() {
   return (
+    
     <nav>
+      
       <ul className='nav-link'>
         <li><Link to="/home" className='nav-list'>Home</Link></li>
         <li><Link to="/about" className='nav-list'>About</Link></li>
