@@ -10,13 +10,16 @@ import "../Global.css/Service.css"
 function Service() {
   const[clicked, setClicked]=useState(false)
 
-  function handlerclick() {
-    alert("You will book now");
+  function handlerclick(serviceName,serviceprice1) {
+    alert(`You will book now ${serviceName} for ${serviceprice1}`);
     setClicked(true); 
 
     if(clicked){
-      console.log("you will book now")
+      console.log(`you will book now ${serviceName} for ${serviceprice1}`)
+      
     }
+
+   
   };
   
   return (
@@ -26,16 +29,21 @@ function Service() {
     </div>
     <h2 className='service-head'>Welcome<br/> Our Services</h2>
     <p className='paragraph-servic'>Choose from a variety of <br/> premium salon experiences.</p>
-    <button onClick={handlerclick} id='service-btns'>Explore More</button>
+    <button 
+    id='service-btns'>Explore More</button>
     <br/>
 
     <div className='service-card-container'/>
     <section className='service-card1'>
       <img src={Stylish} alt="Stylish-image"  className='stylish-image1'/>
-      <h3>Haircut & Styling</h3>
-      <p>Modern and styles for every look and event..</p>
+      <h3 className='card-heading'>Haircut & Styling</h3>
+      <p className='card-pra'>Get a fresh new look with our expert hair cutting and styling services.
+Whether you prefer a trendy cut or a classic style, we tailor it to suit your personality.
+...</p>
       <p className='price1'>Starting at ₹299</p>
-      <button onClick={handlerclick} className='book-btn'>Book Now</button>
+      <button onClick={()=>handlerclick('Haircut & Styling', '₹299')}
+
+      className='book-btn'>Book Now</button>
      </section>
 
 
@@ -43,38 +51,40 @@ function Service() {
      <section>
        <div className='service-card2'>
       <img src={Berd} alt='Beard' className='stylish-image1'/>
-      <h3>Beard Grooming</h3>
-      <p>Keep your beard clean, sharp, and well-shaped with our professional beard grooming service..</p>
-      <p className='price1'> startin price is:₹150</p>
-      <button className='book-btn'>Book Now</button>
+      <h3 className='card-heading'>Beard Grooming</h3>
+      <p className='card-pra'>Keep your beard clean, sharp, and well-shaped with our professional beard grooming service..</p>
+      <p className='price1'> starting price is:₹150</p>
+      <button onClick={()=>handlerclick("Beard Grooming",'₹150')}
+
+      className='book-btn'>Book Now</button>
      </div>
      </section>
 
      <section className='service-card3'>
       <img src={Facial} alt='Facial Image' className='stylish-image1'/>
-      <h3>Facial Treatment</h3>
-      <p>Facial is a skin treatment that deeply cleanses, hydrates, and refreshes your face. It removes dead skin,</p>
+      <h3 className='card-heading'>Facial Treatment</h3>
+      <p className='card-pra'>Facial is a skin treatment that deeply cleanses, hydrates, and refreshes your face. It removes dead skin,</p>
         <p className='price1'>Starting price is ₹120</p>
-        <button onClick={handlerclick} className='book-btn'>Book Now</button>
+        <button onClick={()=>handlerclick("Facial Treatment","₹120")} className='book-btn'>Book Now</button>
      </section>
 
      
      <section className='service-card4'>
       <img src={Coloring} alt='Hair-color' className='stylish-image1'/>
-      <h3>Hair Coloring</h3>
-      <p>Hair coloring gives your hair a new and stylish look. We use safe and good-quality colors that stay longer and do not harm your hair. Choose your favorite shade and change your style with confidence.</p>
-      <p className='price1'>Starting Price is :₹300-600</p>
-      <button onClick={handlerclick} className='book-btn'>Book NOW</button>
+      <h3 className='card-heading'>Hair Coloring</h3>
+      <p className='card-pra'>Hair coloring gives your hair a new and stylish look. We use safe and good-quality colors that stay longer and do not harm your hair. </p>
+      <p className='price1'>Starting Price is :₹300</p>
+      <button onClick={()=>handlerclick("Hair Coloring","₹300")} className='book-btn'>Book NOW</button>
      </section>
       
 
 
       <section className='service-card5'>
       <img src={Treatment} alt='treatnment-img' className='stylish-image1'/>
-      <h3>Manicure & Pedicure</h3>
-      <p>Manicure and Pedicure are relaxing treatments for your hands and feet. They include nail cleaning, shaping, dead skin removal, and gentle massage. These services help keep your skin soft, clean, and healthy, while giving your nails a neat and stylish look. </p>
+      <h3 className='card-heading'>Manicure & Pedicure</h3>
+      <p className='card-pra'>Manicure and Pedicure are relaxing treatments for your hands and feet. They include nail cleaning, shaping, dead skin removal,</p> 
       <p className='price1'>Starting in ₹199-210</p>
-      <button onClick={handlerclick} className='book-btn'>Book Now</button>
+      <button onClick={()=>handlerclick("Manicure & pedicure","₹199-210")} className='book-btn'>Book Now</button>
       </section>
 
 

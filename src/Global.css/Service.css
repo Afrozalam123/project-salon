@@ -482,3 +482,46 @@ input[type='text4']:focus{
   font-size: 1.1rem;
   
 }
+
+/* Style for all 5 card heading */
+.card-heading{
+  position: relative;
+  text-align: center;
+  color: brown;
+  font-family: cursive;
+  font-weight: bolder;
+}
+/* style for all card pra */
+.card-pra{
+  position: relative;
+  display: flex;
+  text-align: center;
+  color: darkcyan;
+  font-size: 1.1rem;
+}
+/* style for all card 5 price */
+.price1{
+  position: relative;
+  display: flex;
+  color:red;
+  letter-spacing:4px;
+top: 2rem;
+  text-align: center;
+  left: 3rem;
+}
+
+/* Style for btn */
+.book-btn{
+  position: relative;
+  display: flex;
+  color: blue;
+  text-shadow: 0px 0px 12px blue,
+                3px 3px 13px blue;
+  box-shadow: 0px 0px 15px navy,
+              0px 2px 16px navy,
+              0px 3px 18px navy;
+  cursor: pointer;
+  align-items: center;
+  left: 6rem;
+  top: 4.3rem;              
+}
